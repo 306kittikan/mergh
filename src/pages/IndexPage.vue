@@ -74,9 +74,9 @@ import { ref } from 'vue'
 export default {
   setup () {
     const $q = useQuasar()
-    const id = ref("093489980")
-    const name = ref("กิตติกานต์")
-    const surname = ref("เอียดใหญ่")
+    const id = ref("0943489980")
+    const name = ref("Kittikan")
+    const surname = ref("aiadhai")
     const languge = ref ("ภาษาไทย")
     const age = ref(null)
     const accept = ref(false)
@@ -108,7 +108,6 @@ export default {
       },
 
       onReset () {
-        id.value = null
         name.value = null
         surname.value = null
         languge.value = null
